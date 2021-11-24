@@ -1,0 +1,7 @@
+ app.js
+ npm install bcrypt, cookie-parser, cors, dotenv, express, jsonwebtoken, mysql2, sequelize
+ make folder config -> database.js (for databse connection)
+ make folder model -> usermodel.js (for model of table db)
+ make folder controllers -> users.js (as controller)
+ make folder routes -> index.js (for router and parse route to app.js as endpoint)
+ make folder middleware -> verify_token.js (for verifycation of access token )

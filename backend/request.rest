@@ -1,0 +1,32 @@
+GET http://localhost:5000/users
+
+###
+
+// hak akses harus login dahulu untuk mendapatkan access token
+GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsIm5hbWUiOiJkZWNvejIiLCJlbWFpbCI6ImRlY296MkBnbWFpbC5jb20iLCJpYXQiOjE2Mzc2NDkzNDQsImV4cCI6MTYzNzY0OTM1OX0.N0H8Cto1nEjGrqi1jQUz8iKeXK-Ha9kViP57QFcebOQ
+
+POST  http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name" : "decoz2",
+    "email" : "decoz2@gmail.com",
+    "password" : "123456",
+    "confPassword" : "123456"
+}
+
+###
+POST  http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email" : "decoz2@gmail.com",
+    "password" : "123456"
+}
+
+###
+GET  http://localhost:5000/token
+
+###
+DELETE  http://localhost:5000/logout

@@ -1,0 +1,25 @@
+install npm packages -> 
+- react-router-dom  -- untuk membuat router
+- axios             -- untuk mempermudah interaksi dengan api
+- bulma css         -- untuk style css
+- jwt decode        -- untuk decode token (untuk mendecode token dari backend)
+
+npm start -- untuk tes app
+
+sisakan file app dan index .js di folder src
+masuk index.js -> hapus import dan fungsi yang tidak digunakan, import axios dan bulma dan setingan lain2(di dalam page)
+
+buat folder src - components
+buat file Login.js dan generate language mode ke react
+gunakan bulma untuk membuat template login
+
+buat file Register.js
+
+buat file Dasboard.js
+
+buat file Navbar.js 
+
+
+==error==
+ganti useHistory dengan useNavigate
+perhatikan tata letak urutan middleware
